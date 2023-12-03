@@ -1,0 +1,24 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('snake.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#game-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+canvas {
+    display: block;
+}
+
+h1 {
+    color: white; /* Cambia el color del título a blanco */
+}
